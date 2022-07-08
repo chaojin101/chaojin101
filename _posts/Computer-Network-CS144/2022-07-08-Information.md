@@ -14,4 +14,4 @@ categories: ["Computer Network CS144"]
 
 # Note For Lectures
 
-3. Packet Switching <>
+3. Packet Switching <https://chaojin101.github.io/posts/Packet-Switching/>
