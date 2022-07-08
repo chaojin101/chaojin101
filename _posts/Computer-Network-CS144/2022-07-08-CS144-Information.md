@@ -3,7 +3,7 @@ title: Computer Network CS144 Note
 categories: ["Computer Network CS144"]
 ---
 
-# Relative Resource
+## Relative Resource
 
 - Official website <https://cs144.github.io>
 - Youtube videos <https://www.youtube.com/playlist?list=PL6RdenZrxrw9inR-IJv-erlOKRHjymxMN>
@@ -12,6 +12,6 @@ categories: ["Computer Network CS144"]
 > Note: Youtube videos have three extra interview videos to computer network designers.
 {: .prompt-info}
 
-# Note For Lectures
+## Note For Lectures
 
-3. Packet Switching <https://chaojin101.github.io/posts/Packet-Switching/>
+3. Packet Switching <https://chaojin101.github.io/posts/CS144-Packet-Switching/>
