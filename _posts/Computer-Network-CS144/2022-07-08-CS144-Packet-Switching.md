@@ -83,3 +83,11 @@ $$ t_p = \frac{p}{r} $$
 
 > Digestion: Packetization Delay is like time to put bits of a packet into the link. 
 {: .prompt-tip}
+
+The mathematics powered by [**MathJax**](https://www.mathjax.org/):
+
+$$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
+
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
