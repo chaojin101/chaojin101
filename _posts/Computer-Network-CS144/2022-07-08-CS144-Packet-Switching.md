@@ -78,9 +78,9 @@ Key characteristics
 ### 3-3 End to End Delay
 
 Defination:
-- Packetization Delay, \( t_p \) : The time from when the first to the last of a packet is transmitted.
+- Packetization Delay, $$ t_p $$ : The time from when the first to the last of a packet is transmitted.
 ![packetization-delay.png](\assets\img\post\CS144\packet-switch-note\packetization-delay.png)
-    - \( t_p = \frac{p}{r} \) 
+$$ t_p = \frac{p}{r} $$
 
 > Digestion: Packetization Delay is like time to put bits of a packet into the link. 
 {: .prompt-tip}
