@@ -79,7 +79,7 @@ Key characteristics
 Defination:
 - Packetization Delay, \( t_p \) : The time from when the first to the last of a packet is transmitted.
 ![packetization-delay.png](\assets\img\post\CS144\packet-switch-note\packetization-delay.png)
-    - \( t_p = \frac{p}{r} \)
+$$ t_p = \frac{p}{r} $$
 
 > Digestion: Packetization Delay is like time to put bits of a packet into the link. 
 {: .prompt-tip}
