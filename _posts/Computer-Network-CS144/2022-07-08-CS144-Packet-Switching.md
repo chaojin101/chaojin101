@@ -12,21 +12,29 @@ math: true
     - Propagation delay
     - Queueing delay
 
+- After finish this unit, you can answer:
+    - How does an Internet router actually work?
+    - How is it different from an Ethernet switch?
+    - How does a router arrange its lookup tables?
+
 ### 3-1 The History of Networks and Internet
 
-- Fire Beacons
-- Carrier Pigeons
-- Human Messengers
-- Horse Relays
-- Optical methods: reflect sun ray
-- The Telegraph in France
-    - Codes
-    - Flow Control
-    - Synchronization
-    - Error correction and retransmission
-    - Encryption
+- Brief history of networking
+    - Fire Beacons
+    - Carrier Pigeons
+    - Human Messengers
+    - Horse Relays
+    - Optical methods: Heliograph
+    - The Telegraph in France (a semaphore telegraph network)
+        - Codes
+        - Flow Control
+        - Synchronization
+        - Error correction and retransmission
+        - Encryption
+
 > Note: These concepts raised by the Telegraph in Franch are still in use today.
 {: .prompt-info}
+
 - Telephone
 
 ### 3-2 What is packet switching
@@ -44,6 +52,8 @@ Key characteristics:
 - **Dedicated circuit** within the wire.
 - **Fixed data rate** on the dedicated circuit.
 - **Isolated** from end-to-end.
+
+Circuit switching uses a dedicated circuit to transfer data in a fixed data rate, the circuit will be isolated with other circuits.
 
 Lecture summary:
 - Each call has its own private, guaranteed, isolated data rate from end-to-end.
@@ -74,6 +84,7 @@ Key characteristics
 
 - Efficient use of expensive links.
 - Resilience to failure of links & routers. (high reliability)
+- Internet want to be widely used all communication network, interconnect all of those existing networks. if use circuit switch, it will be too much cost by mantaining the status, so it needs packet switching.
 
 ### 3-3 End to End Delay
 
@@ -82,7 +93,7 @@ Defination:
 ![packetization-delay.png](\assets\img\post\CS144\packet-switch-note\packetization-delay.png)
     - $$ t_p = \frac{p}{r} $$
 
-> Digestion: Packetization Delay is like time to put bits of a packet into the link. 
+> Digestion: Packetization Delay is like time to put bits of a packet into the link, it makes no difference on how fast bits propagate.
 {: .prompt-tip}
 
 ### 3-4 Playback Buffers
@@ -103,7 +114,8 @@ Defination:
 
 ![pipeline-packets.png](\assets\img\post\CS144\packet-switch-note\pipeline-packets.png)
 
-- Pipeline. We break messages into packets because it lets us pipeline the transfer, and reduce end to end delay.
+> Digestion: **Pipeline**. We break messages into packets because it lets us pipeline the transfer, and reduce end to end delay.
+{: .prompt-tip}
 
 ---
 
@@ -112,4 +124,12 @@ Defination:
 - c is departed rate
 ![statistical-multiplexing-p2.png](\assets\img\post\CS144\packet-switch-note\statistical-multiplexing-p2.png)
 
-- Statistical Multiplexing Gain. Statistical multiplexing lets us carry many flows efficiently on a single link.
+> Digestion: Statistical Multiplexing Gain. Statistical multiplexing lets us carry many flows efficiently on multiple input links and a single output link.
+{: .prompt-tip}
+
+### 3-5a Simple Queueing Model Example
+
+> Digestion: When packets arrived at random intervals, the average queue occupancy will be higher.
+{: .prompt-tip}
+
+### 3-7 Practice Switching and Forwording
