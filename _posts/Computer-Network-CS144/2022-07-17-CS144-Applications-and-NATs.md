@@ -9,7 +9,7 @@ math: true
 
 Symmetric NAT
 
-!['Symmetric NAT'](\assets\img\post\CS144\Applications-and-NATs\symmetric-NAT.png)
+!['Symmetric NAT'](\assets\img\post\CS144\Applications-and-NATs-note\symmetric-NAT.png)
 
 > Digestion: Symmetric NAT will translate the same internal IP with port to different NAT ports for different destination's IPs or ports. This may cause problems, if the server is distributed, two same source requests inside a symmetric NAT have different NAT ports. if the server uses the same source port to decide whether it is the same request, it will fails.
 {: .prompt-tip}

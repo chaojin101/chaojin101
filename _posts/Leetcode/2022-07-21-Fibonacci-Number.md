@@ -23,6 +23,7 @@ F(n) = F(n - 1) + F(n - 2), for n > 1.
 ### Answer 1 dynamic programming
 
 ```go
+{% raw %}
 func fib(n int) int {
     if n < 2 {
         return n
@@ -39,6 +40,7 @@ func fib(n int) int {
     }
     return z
 }
+{% endraw %}
 ```
 
 Time:  O(n)
@@ -47,6 +49,7 @@ Space: O(1)
 ### Answer 2 fast matrix exponentiation
 
 ```go
+{% raw %}
 const mod int = 1e9+7
 
 func fib(n int) int {
@@ -83,6 +86,7 @@ func multiply(a, b [][]int) (res [][]int) {
     }
     return res
 }
+{% endraw %}
 ```
 
 Time:  O(log n)

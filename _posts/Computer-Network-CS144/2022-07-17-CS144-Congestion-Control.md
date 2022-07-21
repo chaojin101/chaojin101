@@ -7,7 +7,7 @@ math: true
 
 ### 4-3 Dynamics of a single AIMD flow
 
-!['Dynamics of a single AIMD flow'](\assets\img\post\CS144\congestion-control-note)
+![Dynamics of a single AIMD flow](\assets\img\post\CS144\congestion-control-note)
 
 > Digestion: When the Buffer size, B = RTT x C (C = $$ \frac{WSize}{RTT} $$), that is B = WSize, the Bottleneck Link Utilization will always be 100%, this is because when a packet drop, the WSize will be halved, the packets in the buffer can ride out the time during the WSize increases.
 {: .prompt-tip}
