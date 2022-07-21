@@ -21,9 +21,9 @@ F(n) = F(n - 1) + F(n - 2), for n > 1.
 0 <= n <= 100
 
 ### Answer 1 dynamic programming
-
-```go
 {% raw %}
+```go
+
 func fib(n int) int {
     if n < 2 {
         return n
@@ -40,10 +40,11 @@ func fib(n int) int {
     }
     return z
 }
-{% endraw %}
 ```
+{% endraw %}
 
 Time:  O(n)
+
 Space: O(1)
 
 ### Answer 2 fast matrix exponentiation
@@ -90,4 +91,5 @@ func multiply(a, b [][]int) (res [][]int) {
 ```
 
 Time:  O(log n)
+
 Space: O(1)
