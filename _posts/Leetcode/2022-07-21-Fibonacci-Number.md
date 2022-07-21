@@ -3,7 +3,7 @@ title: Leetcode 509. Fibonacci Number
 categories: ["Leetcode"]
 ---
 
-<https://leetcode.cn/problems/fibonacci-number/>
+<https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/>
 
 ### Question
 
@@ -23,7 +23,6 @@ F(n) = F(n - 1) + F(n - 2), for n > 1.
 ### Answer 1 dynamic programming
 {% raw %}
 ```go
-
 func fib(n int) int {
     if n < 2 {
         return n
