@@ -2,7 +2,6 @@
 title: Computer Network CS144 Subtitles Lower Layers
 categories: ["Computer Network CS144"]
 tags: ["Computer Network CS144"]
-math: true
 ---
 
 ### 7-0

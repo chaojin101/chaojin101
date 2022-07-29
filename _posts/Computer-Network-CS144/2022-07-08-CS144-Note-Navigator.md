@@ -16,10 +16,11 @@ pin: true
 
 ## Note For Lectures
 
-3. Packet Switching: <https://chaojin101.github.io/posts/CS144-Packet-Switching/>
-4. Congestion Control: <https://chaojin101.github.io/posts/CS144-Congestion-Control/>
-5. NATs: <https://chaojin101.github.io/posts/CS144-Applications-and-NATs/>
+- Packet Switching: <https://chaojin101.github.io/posts/CS144-Packet-Switching/>
+- Congestion Control: <https://chaojin101.github.io/posts/CS144-Congestion-Control/>
+- Application and NATs: <https://chaojin101.github.io/posts/CS144-Applications-and-NATs/>
+- Physical Layer: <https://chaojin101.github.io/posts/CS144-Physical-Layer/>
 
 ## Subtitles
 
-1. Lower Layers: <https://chaojin101.github.io/posts/CS144-Subtitles-Lower-Layers>
+- Lower Layers: <https://chaojin101.github.io/posts/CS144-Subtitles-Lower-Layers>
