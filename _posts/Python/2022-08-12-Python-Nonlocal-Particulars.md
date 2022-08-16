@@ -1,5 +1,6 @@
 ---
 title: 'Python Nonlocal Particulars'
+categories: ['Python']
 ---
 
 ## Pre-compute
