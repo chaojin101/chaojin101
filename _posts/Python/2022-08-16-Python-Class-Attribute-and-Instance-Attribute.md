@@ -1,6 +1,6 @@
 ---
 title: Python Class Attribute and Instance Attribute pitfall
-category: ['Python']
+categories: ['Python']
 ---
 
 > If we use instance to modify the class attribute, it will create a instance attribute and not change the class attribute
