@@ -56,3 +56,5 @@ python -i temp.py
 >>> fib.call_count
 3
 ```
+
+So, add a decorator @count means call `f = count(f)`, a decorator's actual move is to make a function call, pass `f` as a argument for decorator function and the return value resigns to `f`.
