@@ -34,3 +34,13 @@ launch.json
 ```
 
 Compiler: Use Visual Studio's Compiler
+
+Debug:
+```
+F5
+```
+
+Build command:
+```sh
+cmake --build build
+```
