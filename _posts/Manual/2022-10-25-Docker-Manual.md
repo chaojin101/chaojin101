@@ -58,6 +58,12 @@ enter a container named **service**
 docker exec -it service sh
 ```
 
+show container logs
+```
+docker logs service
+```
+
 live tail docker logs
 ```sh
 docker logs --follow service
+```
