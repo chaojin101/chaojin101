@@ -21,7 +21,7 @@ python -m venv venv
 
 Activate virtual environment
 
-```sh
+```
 .\venv\Scripts\activate
 ```
 
@@ -41,7 +41,7 @@ It will create a folder named `alembic` and a file named `alembic.ini`.
 
 ---
 
-In `alembic-example` folder, create an `app` folder and create a file name `database.py`.
+In `alembic-example` folder, create an `app` folder and create a file named `database.py` inside `app`.
 
 In `database.py`, you need to configure your connection string `CONNECTION_STR`
 
@@ -203,6 +203,6 @@ alembic downgrade base
 
 ## Related
 
-- [Intro to Database Migrations with Alembic(9min video)](https://www.youtube.com/watch?v=SdcH6IEi6nE)
+- [Intro to Database Migrations with Alembic (9min video)](https://www.youtube.com/watch?v=SdcH6IEi6nE)
 - [Official doc](https://alembic.sqlalchemy.org/en/latest/tutorial.html#relative-migration-identifiers)
 - [Repository for this example](https://github.com/chaojin101/alembic-example)
