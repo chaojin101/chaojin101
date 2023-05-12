@@ -1,5 +1,5 @@
 ---
-title: "Python alembic usage"
+title: "Python alembic usage a migration tool for sqlalchemy"
 categories: ["usage"]
 tags: ["python"]
 ---
@@ -7,11 +7,11 @@ tags: ["python"]
 This article will introduce basic usage about alembic for migration about SQLAlchemy.
 
 > I'm in windows 10 and python 3.11.2
-> {: .prompt-info }
+{: .prompt-info }
 
 ## Setup
 
-I'm currently in `alembic-example` folder.
+I'm currently in a new folder named `alembic-example` folder.
 
 Create a virtual environment for python.
 
@@ -41,7 +41,7 @@ It will create a folder named `alembic` and a file named `alembic.ini`.
 
 ---
 
-In `alembic-example` folder, create an `app` folder and create a file named `database.py` inside `app`.
+In `alembic-example` folder, create an `app` folder and create a file named `database.py` inside `app` folder.
 
 In `database.py`, you need to configure your connection string `CONNECTION_STR`
 
@@ -79,13 +79,13 @@ Now, the folder's structure should be similar like this:
 
 ```
 alembic-example/
-  alembic/
-    ...
-  alembic.ini
-  app/
-    __init__.py
-    database.py
-    models.py
+    alembic/
+        ...
+    alembic.ini
+    app/
+        __init__.py
+        database.py
+        models.py
 ```
 
 ## Configure alembic
@@ -149,7 +149,7 @@ Now the database create a table named `user`, a column `id` and an index for `id
 
 Add a new column `username` for `user`
 
-In `models.py`
+Here is updated `models.py`
 
 ```py
 from app.database import Base
