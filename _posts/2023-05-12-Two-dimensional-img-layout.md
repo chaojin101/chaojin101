@@ -8,20 +8,20 @@ This article will introduce three typical two dimensional img layout.
 
 The difficulty to achieve is from easy to hard.
 
-- [code for this article](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout)
+[code for this article](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout)
 
 > I will use Vue to achieve, using vanilla JS is basically the same.
 {: .prompt-info }
 
-1. grid responsive
+- grid responsive
 
 ![grid-layout-example](/assets/post/2023/05/grid-layout-example.png)
 
-2. flexbox row (notice it will center last row)
+- flexbox row (notice it will center last row)
 
 ![grid-layout-example](/assets/post/2023/05/flexbox-row-layout-example.png)
 
-3. wookmark
+- wookmark
 
 ![wookmark-layout-example](/assets/post/2023/05/wookmark-layout-example.png)
 
@@ -36,7 +36,7 @@ Let's see how to achieve the above layout effect.
 
 ## grid responsive
 
-- [code for this example](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout/grid)
+[code for this example](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout/grid)
 
 Project setup is in `REMEAD.md` file.
 
@@ -74,12 +74,13 @@ img {
 }
 </style>
 ```
+{: file='src/App.vue'}
 
 If there is no `need` for other layout, I recommend to use grid to achieve this easy two dimensional img layout.
 
 ## flexbox row
 
-- [code for this example](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout/flexbox-row)
+[code for this example](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout/flexbox-row)
 
 In `src/App.vue` file, I basically just calculate the `last row's img amount`, and set these last row's imgs `not grow` and set it's `flex-basis same as above row's calculated width`. If you change your screen size, you need to refresh the page to calculate again. you can add `window.addEventListener('resize', callback)` to recalculate it.
 
@@ -99,7 +100,7 @@ const setLastRowImg = () => {
     const img_containers =
       document.querySelectorAll<HTMLDivElement>(`.img_container`);
     for (
-      let i = totalImgAmount - lastRowImgAmount;
+      let i = totalImgAmount lastRowImgAmount;
       i < totalImgAmount;
       i++
     ) {
@@ -143,6 +144,7 @@ img {
 }
 </style>
 ```
+{: file='src/App.vue'}
 
 ## wookmark
 
@@ -237,5 +239,5 @@ img {
   width: 100%;
 }
 </style>
-
 ```
+{: file='src/App.vue'}
