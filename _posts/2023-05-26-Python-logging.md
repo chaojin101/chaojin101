@@ -1,5 +1,5 @@
 ---
-title: Python utils tricks
+title: Python logging
 categories: ["usage"]
 tags: ["python"]
 ---
