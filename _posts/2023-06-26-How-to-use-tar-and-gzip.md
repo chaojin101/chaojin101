@@ -45,3 +45,11 @@ tar -zxvf test.tar.gz
 
 -x -extract: extract files from an archive
 it will generate `t/test.txt` file
+
+# References
+
+- [youtube gzip in 100 seconds](https://www.youtube.com/watch?v=NLtt4S9ErIA)
+
+```sh
+man tar
+```

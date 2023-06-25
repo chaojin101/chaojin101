@@ -1,8 +1,10 @@
 ---
-title: How to set clash in linux
+title: How to setup clash in linux
 categories: ["howto"]
 tags: ["linux"]
 ---
+
+# Setup clash
 
 ## Download clash
 
@@ -47,3 +49,24 @@ wget -U "Mozilla/6.0" -O ~/.config/clash/config.yaml  你的Clash订阅链接网
 ```sh
 ./clash
 ```
+
+## set proxy
+
+open a new terminal
+
+```sh
+export http_proxy=http://127.0.0.1:7890
+export https_proxy=http://127.0.0.1:7890
+```
+
+## verify proxy in use
+
+make a get request before and after set proxy
+
+```sh
+curl https://httpbin.org/ip
+```
+
+# References
+
+- [tutorial in Chinese](https://fanqiang.gitbook.io/fanqiang/linux)
