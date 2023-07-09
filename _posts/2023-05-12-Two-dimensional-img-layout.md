@@ -1,6 +1,5 @@
 ---
 title: "Two dimensional img layout"
-categories: ["layout"]
 tags: ["css"]
 ---
 
@@ -11,7 +10,7 @@ The difficulty to achieve is from easy to hard.
 [code for this article](https://github.com/chaojin101/blog-example-2023/tree/main/2023-05-12-Two-dimensional-img-layout)
 
 > I will use Vue to achieve, using vanilla JS is basically the same.
-{: .prompt-info }
+> {: .prompt-info }
 
 - grid responsive
 
@@ -32,7 +31,7 @@ With code running, you can view my effect in the `iPhone SE` screen size, there 
 Let's see how to achieve the above layout effect.
 
 > Check the code from repo, the code is easy to understand, I will only point out some import points.
-{: .prompt-info }
+> {: .prompt-info }
 
 ## grid responsive
 
@@ -46,13 +45,13 @@ Below is `src/App.vue` file:
 
 ```vue
 <script setup lang="ts">
-const totalImgAmount = 8
+const totalImgAmount = 8;
 </script>
 
 <template>
   <div class="container">
     <div class="img_container" v-for="i in totalImgAmount">
-      <img :src="`${i}.jpg`" alt="">
+      <img :src="`${i}.jpg`" alt="" />
     </div>
   </div>
 </template>
@@ -74,6 +73,7 @@ img {
 }
 </style>
 ```
+
 {: file='src/App.vue'}
 
 If there is no `need` for other layout, I recommend to use grid to achieve this easy two dimensional img layout.
@@ -144,6 +144,7 @@ img {
 }
 </style>
 ```
+
 {: file='src/App.vue'}
 
 ## wookmark
@@ -154,7 +155,7 @@ In `src/App.vue` file, I set the col number and gap, other data will be calculat
 
 ```vue
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
+import { ref, onMounted, computed } from "vue";
 const getMinItemIndex = (arr: number[]) => {
   let minItemIndex = 0;
   for (let i = 1; i < arr.length; i++) {
@@ -183,10 +184,10 @@ const waitImgsLoaded = async () => {
   for (let i = 0; i < imgAmount.value; i++) {
     const promise = new Promise<void>((resolve) => {
       const listener = () => {
-        imgRefs.value[i].removeEventListener('load', listener);
+        imgRefs.value[i].removeEventListener("load", listener);
         resolve();
       };
-      imgRefs.value[i].addEventListener('load', listener);
+      imgRefs.value[i].addEventListener("load", listener);
     });
     promises.push(promise);
   }
@@ -203,9 +204,9 @@ const setWookmark = async () => {
     const left = gap.value + minHeightColIndex * (gap.value + colWidth.value);
     const top = colHeights[minHeightColIndex] + gap.value;
     imgContainerStyles.value[i] = {
-      position: 'absolute',
-      left: left + 'px',
-      top: top + 'px',
+      position: "absolute",
+      left: left + "px",
+      top: top + "px",
     };
     colHeights[minHeightColIndex] += gap.value + imgRefs.value[i].offsetHeight;
   }
@@ -220,11 +221,11 @@ onMounted(async () => {
 <template>
   <div :style="{ height: containerHeight + 'px' }" class="container">
     <div
-    v-for="i in imgAmount"
-    class="img_container"
-    :style="{ width: colWidth + 'px', ...imgContainerStyles[i - 1] }"
+      v-for="i in imgAmount"
+      class="img_container"
+      :style="{ width: colWidth + 'px', ...imgContainerStyles[i - 1] }"
     >
-    <!-- this i starts at 1 -->
+      <!-- this i starts at 1 -->
       <img ref="imgRefs" :src="`${i}.jpg`" alt="" />
     </div>
   </div>
@@ -240,4 +241,5 @@ img {
 }
 </style>
 ```
+
 {: file='src/App.vue'}

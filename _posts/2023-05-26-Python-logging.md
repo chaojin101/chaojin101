@@ -1,6 +1,5 @@
 ---
 title: Python logging
-categories: ["usage"]
 tags: ["python"]
 ---
 

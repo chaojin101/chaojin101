@@ -1,6 +1,7 @@
 ---
 title: How to set a simple reverse proxy with nginx
-categories: ["nginx"]
+categories: ["howto"]
+tags: ["nginx"]
 ---
 
 # Add a new server block

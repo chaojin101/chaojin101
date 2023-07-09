@@ -1,6 +1,6 @@
 ---
 title: Postgres init setup
-categories: ["postgres"]
+tags: ["postgres"]
 ---
 
 # Install postgres

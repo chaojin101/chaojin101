@@ -1,6 +1,5 @@
 ---
 title: Python utils tricks
-categories: ["usage"]
 tags: ["python"]
 ---
 
@@ -54,6 +53,7 @@ print(readable_time - datetime.fromtimestamp(timestamp, timezone(timedelta(hours
 ```
 
 ### Summary
+
 - `datetime without timezone` can only do math with `datetime without timezone`.
 - `datetime with timezone` can only do math with `datetime with timezone`.
 - the math result is `timedelta` object.

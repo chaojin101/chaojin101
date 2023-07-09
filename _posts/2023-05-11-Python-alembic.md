@@ -1,13 +1,12 @@
 ---
 title: "Python alembic usage a migration tool for sqlalchemy"
-categories: ["usage"]
 tags: ["python"]
 ---
 
 This article will introduce basic usage about alembic for migration about SQLAlchemy.
 
 > I'm in windows 10 and python 3.11.2
-{: .prompt-info }
+> {: .prompt-info }
 
 ## Setup
 

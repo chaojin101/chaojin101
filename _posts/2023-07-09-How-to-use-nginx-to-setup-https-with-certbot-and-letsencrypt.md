@@ -1,6 +1,7 @@
 ---
 title: How to use nginx to setup https with certbot and let's encrypt
-categories: ["nginx"]
+categories: ["howto"]
+tags: ["nginx"]
 ---
 
 # Install nginx

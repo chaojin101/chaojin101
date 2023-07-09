@@ -1,6 +1,6 @@
 ---
 title: Data structure min binary heap
-categories: ["data structure"]
+tags: ["data structure"]
 ---
 
 # Definition
