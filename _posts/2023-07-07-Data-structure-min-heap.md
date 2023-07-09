@@ -6,9 +6,13 @@ categories: ["data structure"]
 # Definition
 
 ADT:
+
 the amount of vals in heap is `n`.
+
 pop() -> val `O(log(n))` get and delete the min val.
+
 push(val) -> None `O(log(n))` insert a val into heap.
+
 top() -> val `O(1)` get the min val.
 
 # Implementation
@@ -129,5 +133,7 @@ for i in range(len(self.__heap) // 2 - 1, -1, -1):
 # Reference
 
 [animation for understanding](https://www.youtube.com/watch?v=AE5I0xACpZs)
+
 [whiteboard drawing for understanding](https://www.youtube.com/watch?v=g9YK6sftDi0)
+
 [simple python implementation](https://www.youtube.com/watch?v=hkyzcLkmoBY)
