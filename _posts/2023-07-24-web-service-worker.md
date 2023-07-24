@@ -15,7 +15,7 @@ MDN link: [`skipWaiting()`](https://developer.mozilla.org/en-US/docs/Web/API/Ser
 
 In Basic architecture section of the link above, at point 4, it says:
 
-> 4. Once all pages controlled by the old version of the service worker have closed, it's safe to retire the old version, and the newly installed service worker receives an activate event. The primary use of activate is to clean up resources used in previous versions of the service worker. The new service worker can call `skipWaiting()` to ask to be activated immediately without waiting for open pages to be closed. The new service worker will then receive activate immediately, and will take over any open pages.
+> 4 Once all pages controlled by the old version of the service worker have closed, it's safe to retire the old version, and the newly installed service worker receives an activate event. The primary use of activate is to clean up resources used in previous versions of the service worker. The new service worker can call `skipWaiting()` to ask to be activated immediately without waiting for open pages to be closed. The new service worker will then receive activate immediately, and will take over any open pages.
 
 ### `clients.claim()`
 
@@ -25,7 +25,7 @@ MDN link: [`clients.claim()`](https://developer.mozilla.org/en-US/docs/Web/API/S
 
 In Basic architecture section of the link above, at point 5, it says:
 
-> 5. After activation, the service worker will now control pages, but only those that were opened after the register() is successful. In other words, documents will have to be reloaded to actually be controlled, because a document starts life with or without a service worker and maintains that for its lifetime. To override this default behavior and adopt open pages, a service worker can call clients.claim().
+> 5 After activation, the service worker will now control pages, but only those that were opened after the register() is successful. In other words, documents will have to be reloaded to actually be controlled, because a document starts life with or without a service worker and maintains that for its lifetime. To override this default behavior and adopt open pages, a service worker can call clients.claim().
 
 ## Simple example
 
