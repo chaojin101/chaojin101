@@ -51,6 +51,7 @@ title: Resume
 - The web client uses Service Worker and Cache to implement different request strategies for different resources to speed up resource requests.
 - Using Service Worker and Cache, it realizes the feature that the web app can be used completely offline.
 - The web client realizes the feature of gallery slide animation playback.
+- My notes on Service Worker and Cache: [Notes](https://chaojin101.github.io/posts/web-service-worker/)
 
 # Skills
 

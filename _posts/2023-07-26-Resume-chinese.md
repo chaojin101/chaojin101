@@ -51,6 +51,7 @@ title: 简历
 - Web 前端使用了 Service Worker 和 Cache, 实现对不同资源使用不同的请求策略，加速了对资源的请求。
 - 利用 Service Worker 和 Cache，实现了可以完全离线使用的功能。
 - Web 前端实现图库幻灯片动画播放的功能。
+- 我的 Service Worker 和 Cache 的学习笔记：[笔记](https://chaojin101.github.io/posts/web-service-worker/)
 
 # 技能清单
 
