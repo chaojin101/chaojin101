@@ -33,7 +33,7 @@ title: Resume
 - Researching the login logic, and providing users with services such as class schedules and grades.
 - Through packet capture, I found that the campus web client will send encrypted password to the server. After testing, I found that it is necessary to know how the campus network is encrypted to successfully log in.
 - Used the browser's debugging tool to make breakpoints in the JavaScript code on the campus web client and found that AES symmetric encryption was used for the password.
-- Analyzed the parameters required for encryption and how to obtain them through the flow chart.
+- Analyzed the parameters required for encryption and how to obtain them through the [flow chart](https://static.179324.xyz/static/login-to-szu-flow-chart-827fdf2d-c63e-45f6-a46b-1c96390922b2.png).
 - Programmed the login logic according to the flow chart and successfully obtained the desired data.
 
 # Side projects
