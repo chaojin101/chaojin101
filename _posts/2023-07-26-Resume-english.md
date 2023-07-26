@@ -31,7 +31,7 @@ title: Resume
 #### Log in to the school's official website to get the information you want by programming
 
 - Researching the login logic, and providing users with services such as class schedules and grades.
-- Through packet capture, I found that the campus web client will send encrypted password to the server. After testing, I found that it is necessary to know how the campus network is encrypted to successfully log in.
+- Through packet capture, I found that the campus web client will send encrypted password to the server. After testing, I found that it is necessary to know how the password is encrypted in order to successfully log in.
 - Used the browser's debugging tool to make breakpoints in the JavaScript code on the campus web client and found that AES symmetric encryption was used for the password.
 - Analyzed the parameters required for encryption and how to obtain them through the [flow chart](https://static.179324.xyz/static/login-to-szu-flow-chart-827fdf2d-c63e-45f6-a46b-1c96390922b2.png).
 - Programmed the login logic according to the flow chart and successfully obtained the desired data.
@@ -59,15 +59,15 @@ title: Resume
 - Know programming language, and have taken compilation principles, programming language design (C), object-oriented programming (C++), and Java programming courses during school.
 - Learned Python in the programming club in high school. The needs I usually encounter are small, and I can use Python to solve them, so I am relatively familiar with Python.
 - Know SQL language, MySQL database and PostgresSQL database.
-- Have a sense of testing and have written unit tests on larger projects to facilitate the development and refactoring of subsequent features.
+- Have awareness of testing and have written unit tests on larger projects to facilitate the development and refactoring of subsequent features.
 - Have learned HTML, CSS, and JavaScript following [MDN tutorials](https://developer.mozilla.org/en-US/docs/Learn), and I can implement simple web pages.
 - Followed the [official Vue tutorial](https://vuejs.org/guide/introduction.html) to learn the front-end development framework Vue, which increased the experience of front-end development and the management of front-end projects.
 - Have followed the [official Docker tutorial](https://docs.docker.com/get-started/) to learn Docker and understand the basic concepts of Docker.
-- Understand common Linux commands and can manage programs under Linux.
+- Understand common Linux commands and can manage programs on Linux.
 
 ## Misc
 
-- During my time at school, I was awarded the Learning Star Scholarship.
+- During my time at school, I was awarded the [Star of Learning Scholarship](https://static.179324.xyz/static/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%98%9F-c0b92048-0884-4151-923f-18a4bda33783.jpg).
 
 ---
 

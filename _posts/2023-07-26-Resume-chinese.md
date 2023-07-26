@@ -26,7 +26,7 @@ title: 简历
 - 我负责后端开发，简单的 CRUD，后台注册的用户量大概 500~1000 左右。
 - 根据产品的需求**设计数据库表**。
 - **与前端协商 HTTP 接口的各个参数**。
-- 参照微信开发的接口文档，使用户通过微信登陆。
+- 阅读微信开放者文档，使用户通过微信登陆。
 
 #### 编程登陆学校官网获取想要的信息
 
@@ -42,7 +42,7 @@ title: 简历
 
 - 对 Go 官方的 http 包扩展。
 - 比如，利用 post 请求向后台上传文件，我编写了一个[人性化的函数](https://github.com/chaojin101/http#httppostmultipart)。
-- 这个包会持续更新，当我发现我需要的方法在官方包里找不到时，我就会打算编写相关的方法。
+- 这个包会持续更新，当我发现我需要的方法在官方包里找不到时，我会尽力更新，减少重复工作。
 
 ### [图片管理系统](https://gallery.179324.xyz/gallery)
 
@@ -61,7 +61,7 @@ title: 简历
 - 了解 SQL 语言，了解 MySQL 数据库和 PostgresSQL 数据库。
 - **有测试的意识**，对稍微大的项目进行过单元测试，来方便后续功能的开发与重构。
 - 跟着 [MDN 教程](https://developer.mozilla.org/en-US/docs/Learn)学习过 HTML，CSS，JavaScript，能够实现简单的前端页面。
-- 跟着 [Vue 官方教程](https://vuejs.org/guide/introduction.html)学习过前端开发框架 Vue，增加了前端开发的体验和前端项目的管理。
+- 跟着 [Vue 官方教程](https://vuejs.org/guide/introduction.html)学习过前端开发框架 Vue，提高了前端开发的体验和对项目的管理能力。
 - 跟着 [Docker 官方教程](https://docs.docker.com/get-started/)学习过 Docker，了解 Docker 的基本概念。
 - 了解 Linux 常用命令，能够对 Linux 下的程序进行管理。
 - 了解 Git 基本操作，能够使用 Git 进行版本控制。
@@ -70,7 +70,7 @@ title: 简历
 
 ## 其它
 
-- 在校期间获得学习之星奖学金。
+- 在校期间获得[学习之星奖学金](https://static.179324.xyz/static/%E5%AD%A6%E4%B9%A0%E4%B9%8B%E6%98%9F-c0b92048-0884-4151-923f-18a4bda33783.jpg)。
 
 ---
 
