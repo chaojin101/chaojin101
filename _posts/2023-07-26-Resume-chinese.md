@@ -2,6 +2,8 @@
 title: 简历
 ---
 
+[Go to English version](https://chaojin101.github.io/posts/Resume-english/)
+
 # 个人信息
 
 - 郑潮劲/男/2002
@@ -48,7 +50,7 @@ title: 简历
 - 学习使用 Swagger UI 对[后端接口文档](https://api.gallery.179324.xyz/docs)进行展示，提高了前后端开发效率。
 - Web 前端使用了 Service Worker 和 Cache, 实现对不同资源使用不同的请求策略，加速了对资源的请求。
 - 利用 Service Worker 和 Cache，实现了可以完全离线使用的功能。
-- Web 前端实现图库幻灯片动画播放的功能
+- Web 前端实现图库幻灯片动画播放的功能。
 
 # 技能清单
 
@@ -63,7 +65,7 @@ title: 简历
 - 了解 Linux 常用命令，能够对 Linux 下的程序进行管理。
 - 了解 Git 基本操作，能够使用 Git 进行版本控制。
 - 有一定的 CI/CD 经验，能够使用 Github Actions 进行自动化测试和部署。
-- 有良好的英文阅读能力，能够阅读英文文档，已过英语四六级
+- 有良好的英文阅读能力，能够阅读英文文档，已过英语四六级。
 
 # 其它
 
@@ -73,4 +75,4 @@ title: 简历
 
 # 致谢
 
-感谢您花时间阅读我的简历，期待能有机会和您共事。
+感谢您花时间阅读我的简历，期待能有机会和您共事！

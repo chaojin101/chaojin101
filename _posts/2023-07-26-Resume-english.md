@@ -2,6 +2,8 @@
 title: Resume
 ---
 
+[查看中文版本](https://chaojin101.github.io/posts/Resume-chinese/)
+
 # Basic information
 
 - Chaojin Zheng
@@ -39,7 +41,7 @@ title: Resume
 ## [http package](https://github.com/chaojin101/http)
 
 - An extension to the official Go http module.
-- For example, using the post request to upload files to the server, I wrote a [user-friendly function](https://github.com/chaojin101/http#httppostmultipart)。
+- For example, using the post request to upload files to the server, I wrote a [user-friendly function](https://github.com/chaojin101/http#httppostmultipart).
 - This package will continue to be updated. When I find that the method I need cannot be found in the official package, I will try to update it.
 
 ## [Gallery management system](https://gallery.179324.xyz/gallery)
@@ -48,7 +50,7 @@ title: Resume
 - Learn to use Swagger UI to display [back-end API documents](https://api.gallery.179324.xyz/docs), which improves the efficiency of front-end and back-end development.
 - The web client uses Service Worker and Cache to implement different request strategies for different resources to speed up resource requests.
 - Using Service Worker and Cache, it realizes the feature that the web app can be used completely offline.
-- The web client realizes the feature of gallery slide animation playback
+- The web client realizes the feature of gallery slide animation playback.
 
 # Skills
 
@@ -70,4 +72,4 @@ title: Resume
 
 # Thank you
 
-Thank you for taking the time to read my resume and I look forward to the opportunity to work with you.
+Thank you for taking the time to read my resume and I look forward to the opportunity to work with you!
