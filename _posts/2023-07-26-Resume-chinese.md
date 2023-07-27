@@ -2,6 +2,8 @@
 title: 简历
 ---
 
+[在网页上打开简历](https://chaojin101.github.io/posts/Resume-chinese/)
+
 [Go to English version](https://chaojin101.github.io/posts/Resume-english/)
 
 ## 个人信息

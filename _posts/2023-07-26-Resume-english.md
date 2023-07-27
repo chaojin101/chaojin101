@@ -2,6 +2,8 @@
 title: Resume
 ---
 
+[View resume on the web](https://chaojin101.github.io/posts/Resume-english/)
+
 [查看中文版本](https://chaojin101.github.io/posts/Resume-chinese/)
 
 ## Basic information
