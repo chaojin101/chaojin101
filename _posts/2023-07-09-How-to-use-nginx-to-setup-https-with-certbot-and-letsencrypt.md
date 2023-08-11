@@ -36,3 +36,9 @@ follow the instructions it prompts you.
 If you only enter one domain, and not add server block for it, it will create two new server blocks in your `/etc/nginx/sites-enabled/default` file, one for port 80, one for port 443.
 
 I will move these two server blocks to `/etc/nginx/sites-enabled/yourdomain.com` and configure it.
+
+# Append new domains
+
+```sh
+sudo certbot --nginx -d yourdomain.com -d www.yourdomain.com
+```
