@@ -61,7 +61,7 @@ title: Resume
 
 ## Skills
 
-- Have a certain understanding of basic computer knowledge, have studied data structures and algorithms, operating systems, and computer networks and be familiar with LRU cache.
+- Have a certain understanding of basic computer knowledge, have studied data structures and algorithms, operating systems, and computer networks.
 - Know programming language, and have taken compilation principles, programming language design (C), object-oriented programming (C++), and Java programming courses during school.
 - Learned Python in the programming club in high school. The needs I usually encounter are small, and I can use Python to solve them, so I am relatively familiar with Python.
 - Know SQL language, MySQL database and PostgresSQL database.
