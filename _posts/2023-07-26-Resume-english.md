@@ -44,6 +44,12 @@ title: Resume
 - For example, using the post request to upload files to the server, I wrote a [user-friendly function](https://github.com/chaojin101/http#httppostmultipart).
 - This package will continue to be updated. When I find that the method I need cannot be found in the official package, I will try to update it.
 
+### [SZU courses query system](https://szu-course.179324.xyz/docs)
+
+- Using handwritten LRU Cache to realize the caching of course information and reduces queries to the database.
+- Analyze the request logic of the course query system of Shenzhen University to realize the acquisition of courses in the whole school.
+- Courses can be queried by teacher name or course name, which is convenient for students to inquire course information at any time after the course selection system is closed.
+
 ### [Gallery management system](https://gallery.179324.xyz/gallery)
 
 - It is a complete, simple full-stack project that has been launched, and is used to familiarize myself with the front-end and back-end development processes.
